@@ -1,0 +1,267 @@
+.header{
+    background: #BED2E9;
+    height: 170px;
+    box-shadow: 0px 5px 5px grey;
+    position: relative;
+    top: -7px; 
+    min-width: 1000px;
+  }
+  
+  .header .logo{
+    display: inline-block;
+    width: 250px;
+  }
+  
+  .header .logo img{
+    width: 100%;
+  }
+  
+  .button{
+    position: relative;
+    top: -50px; 
+    left: 70px;
+    font-size: 25px;
+    padding: 25px;
+    font-family: Apple Chancery, cursive;
+    color: #ff66b6;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .button:hover{
+      color: #E73A95;
+  }
+  
+  .body1{
+    position: relative;
+    height: 1200px;
+    min-width: 1200px;
+  }
+  
+  body{
+    position: relative;
+    background: #F2DCE6;
+  }
+  
+  .body1 .pic1 img{
+    position: relative;
+    height: 250px;
+  }
+  
+  .body1 .pic2 img{
+    position: relative;
+    height: 250px;
+  }
+  
+  .body1 .pic3 img{
+    position: relative;
+    margin-top: -250px;
+    margin-left: 300px;
+    height: 265px;
+  }
+  
+  .body1 .pic4 img{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 500px;
+    height: 250px;
+  }
+  
+  
+
+  #carousel {
+    position: relative;
+    margin-top: 70px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+  }
+   
+  #carousel img {
+    position: relative;
+    margin: 0 auto;
+    top: 40px;
+    left: 500px;
+    height: 300px;
+    float: left;
+  }
+
+  .body1 .button{
+    position: relative;
+    top: 130px; 
+    left: 500px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: Apple Chancery, cursive;
+    text-decoration: none;
+    background-color: #a1c1ea;
+    border-color: #a1c1ea;
+    border-radius: 45px;
+    margin: 10px 15px 15px 30px;
+    font-weight: 1000;
+    color:#E73A95;
+    
+  }
+
+  .body1 .button:hover{
+    
+    color:#aa1967;
+
+  }
+
+  .body1 .textWelcome{
+  position: relative;
+  margin-top: 56px; 
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 700;
+  }
+
+  .moving-line {
+    width: 500px; 
+    margin: 0 auto; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    
+ }
+ .moving-line p {
+  
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Apple Chancery, cursive;
+    color:crimson;
+    margin-right: 600px;
+    font-weight: 700;
+    padding-left: 100%; 
+    animation: moving-line 15s linear infinite; 
+ }
+ 
+ .moving-line p:hover {
+    animation-play-state: paused; 
+ }
+ 
+ @keyframes moving-line {
+  0%   { transform: translate(0, 0); } 
+  100% { transform: translate(-100%, 0); } 
+ }
+
+
+
+ .body1 .text1{
+    position: relative;
+  top: 100px; 
+  margin-left: 100px;
+  font-size: 25px;
+  display: grid;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 600;
+ }
+
+
+ .body1 .text12{
+    position: relative;
+    margin-top: 130px; 
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #ff66b6;
+    font-family: Apple Chancery, cursive;
+    font-weight: 200;
+ }
+
+
+ .body1 .text2{
+    position: relative;
+  top: 100px; 
+  margin-left: 100px;
+  font-size: 25px;
+  display: grid;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 600;
+ }
+
+
+ .body1 .text22{
+    position: relative;
+    margin-top: 130px; 
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #ff66b6;
+    font-family: Apple Chancery, cursive;
+    font-weight: 200;
+ }
+
+ .body1 .text3{
+    position: relative;
+  top: 100px; 
+  margin-left: 100px;
+  font-size: 25px;
+  display: grid;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 600;
+ }
+
+
+ .body1 .text32{
+    position: relative;
+    margin-top: 130px; 
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #ff66b6;
+    font-family: Apple Chancery, cursive;
+    font-weight: 200;
+ }
+
+ .body1 .text4{
+    position: relative;
+  top: 100px; 
+  margin-left: 100px;
+  font-size: 25px;
+  display: grid;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 600;
+ }
+
+
+ .body1 .text42{
+    position: relative;
+    margin-top: 130px; 
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #ff66b6;
+    font-family: Apple Chancery, cursive;
+    font-weight: 200;
+ }
+
+ .body1 .text5{
+    position: relative;
+  top: 100px; 
+  margin-left: 100px;
+  font-size: 25px;
+  display: grid;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 600;
+ }
+
+
+ .body1 .text52{
+    position: relative;
+    margin-top: 130px; 
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #ff66b6;
+    font-family: Apple Chancery, cursive;
+    font-weight: 200;
+ }

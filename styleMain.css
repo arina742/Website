@@ -1,0 +1,127 @@
+.header{
+  position: relative;
+  background: #BED2E9;
+  height: 170px;
+  box-shadow: 0px 5px 5px grey;
+  position: relative;
+  top: -7px; 
+  min-width: 1000px;
+}
+
+.header .logo{
+  display: inline-block;
+  width: 250px;
+}
+
+.header .logo img{
+  width: 100%;
+}
+
+.button{
+  position: relative;
+  top: -50px; 
+  left: 70px;
+  font-size: 25px;
+  padding: 25px;
+  font-family: Apple Chancery, cursive;
+  color: #ff66b6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover{
+    color: #E73A95;
+}
+
+.body1{
+  position: relative;
+  height: 1200px;
+  min-width: 1200px;
+}
+
+body{
+  position: relative;
+  background: #F2DCE6;
+}
+
+.body1 .textWelcome{
+  display: inline-block;
+  position: relative;
+  top: 56px; 
+  font-size: 50px;
+  display: grid;
+  place-items: center;
+  font-family: Apple Chancery, cursive;
+  color: #E73A95;
+  font-weight: 700;
+}
+
+.body1 .textInformation{
+  display: inline-block;
+  position: relative;
+  top: 70px;
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+  font-size: 20px;
+  color: #ff66b6;
+  font-weight: 300;
+}
+
+.body1 .textInformation2{
+  position: relative;
+  top: 500px;
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+  font-size: 20px;
+  color: #ff66b6;
+  font-weight: 300;
+}
+
+.body1 .frame{
+  text-align: center;
+  position: relative;
+  top: -150px; 
+}
+
+.body1 .frame2 img{
+  position: relative;
+  top: -150px; 
+  margin-left: -10px;
+  height: 300px;
+}
+
+.body1 .frame2 img:hover{
+  height: 350px;
+}
+
+.body1 .frame3 img{
+  position: relative;
+  top: 150px;
+  margin-left: -510px;
+  height: 300px;
+}
+
+.body1 .frame3 img:hover{
+  height: 350px;
+}
+
+.body1 .frame4 img{
+  position: relative;
+  top: -450px;
+  margin-left: 500px;
+  height: 300px;
+}
+
+.body1 .frame4 img:hover{
+  height: 350px;
+}
+
+.videoSummer{
+  position: relative;
+  margin-left: 300px;
+  top: -400px;
+}
